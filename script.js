@@ -3,6 +3,8 @@
 */
 
 //add your code here...
+var alchemy_endpoint = "https://gateway-a.watsonplatform.net/calls/data/GetNews";
+var alchemy_key = "3e629e327b62f6719852cd843f757a773c6e7baf";
 
 
 // ------ don't change any code below here, but check it out. :)

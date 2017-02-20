@@ -3,6 +3,7 @@
 <head>
   <title>Example API REST query</title>
   <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="script.js"></script>
   <link rel="stylesheet" href="style.css" type="text/css"></link>
 
 </head>
@@ -12,6 +13,10 @@
     will search all of the news in the last day for anything related.</h4>
 
 <!-- add your code here ... -->
+<div id="search-box">
+<input name="search-query" id="search-field"> </input>
+<button id="search-button" onclick="search();"> enter </button>
+</div>
 
   <div id="search-results">
     <span>Ready!</span>
